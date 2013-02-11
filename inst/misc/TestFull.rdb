@@ -1,0 +1,16 @@
+# Test importRDB with each variable type and each date style.
+# JRSlack  8 Mar 2001 Initial coding
+# JRSlack 26 Mar 2002 Revised to test new features - first row of dates is empty
+# JRSlack 20 Jun 2003 Fixed column widths
+#
+String	Numeric	Date.empty	Date.dot	Date.plain	Date.slash	Date.dash	Bad.type
+8s	8n	10d	10d	10d	10d	10d	9q
+05020500	0.110282						junk
+	1.112286		1994.05.04	19940504	1994/05/04	1994-05-04	junk2
+06031960			1997.06.17	19970617	1997/06/17	1997-06-17	
+06078260	1.005574			19950516	1995/05/16	1995-05-16	junk3
+06090590	0.499456		1995.04.12		1995/04/12	1995-04-12	junk4
+06090650	1.798834		1994.08.16	19940816		1994-08-16	junk5
+06183450	48.33602		1885.12.18	18851218	1885/12/18		And again
+06191400	10.59334		1990.11.15	19901115	1990/11/15	1990-11-15	Once more
+06294995	38.56138		1993.10.27	19931027	1993/10/27	1993-10-27	Last one

@@ -1,0 +1,11 @@
+Package: USGSwsData
+Version: 0.7
+Date: 2013-02-02
+Title: Data for USGS Water-Science core packages
+Author: Dave Lorenz <lorenz@usgs.gov>
+Maintainer: Dave Lorenz <lorenz@usgs.gov>
+Description: Data sets as data.frames and as text files for examples in the
+	     USGS Water-Science core packages
+License: file LICENSE
+LazyLoad: yes
+lazyData: yes

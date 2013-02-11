@@ -1,0 +1,27 @@
+\name{Q05078770}
+\alias{Q05078770}
+\docType{data}
+\title{
+Daily Streamflow
+}
+\description{
+Daily mean flow for Judicial Ditch 66 near Marcoux Corners, MN (SW6), USGS station number 05078770 for calendar year 2003.
+}
+\usage{Q05078770}
+\format{
+Data frame with 365 rows and 2 columns\cr
+\tabular{lll}{
+ Name \tab Type \tab Description\cr
+ DATES \tab Date \tab Day of streamflow\cr
+ FLOW \tab numeric \tab Daily mean streamflow\cr
+ }
+}
+\source{
+Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.
+}
+\examples{
+data(Q05078770)
+# Plot the data for station 05078770
+with(Q05078770, plot(DATES, FLOW, type='l', log='y'))
+}
+\keyword{datasets}
