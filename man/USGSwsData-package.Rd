@@ -12,8 +12,8 @@
 \tabular{ll}{
 Package: \tab USGSwsData\cr
 Type: \tab Package\cr
-Version: \tab 0.7\cr
-Date: \tab 2013-02-02\cr
+Version: \tab 0.8\cr
+Date: \tab 2013-09-25\cr
 License: \tab file LICENCE\cr
 }
 This package contains the following datasets.
@@ -31,6 +31,7 @@ MayflyNymph \tab Stream Water Quality \cr
 MenomineeMajorIons \tab Stream Water Quality \cr
 MiningIron \tab Stream Water Quality \cr
 PrecipNitrogen \tab Precipitation Water Quality \cr
+PugetNitrate \tab Groundwater Quality \cr
 Q05078470 \tab Daily Streamflow \cr
 Q05078770 \tab Daily Streamflow \cr
 Qall \tab Daily Streamflow \cr

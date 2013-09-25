@@ -1,7 +1,7 @@
 citHeader("Suggested citation for USGSdata:")
 
 citEntry(entry = "TechReport",
-  title        = "USGSwsData--An R Package of Example Hydrologic Data, Version 0.7",
+  title        = "USGSwsData--An R Package of Example Hydrologic Data, Version 0.8",
   author       = personList(as.person("Dave Lorenz")),
   institution  = "U.S. Geological Survey",
   series       = "Open File report",
@@ -9,5 +9,5 @@ citEntry(entry = "TechReport",
 
   textVersion  =
   paste("Lorenz, D.L., in preparation",
-        "USGSwsData--An R Package of Example Hydrologic Data, Version 0.6:")
+        "USGSwsData--An R Package of Example Hydrologic Data, Version 0.8:")
 )
