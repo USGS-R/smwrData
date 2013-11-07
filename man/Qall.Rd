@@ -16,7 +16,7 @@ Data frame with 365 rows and 3 columns\cr
  Flow \tab numeric \tab Daily mean streamflow\cr
  STAID \tab character \tab USGS station number\cr
  }
-Note: the flow rates are cubic feet per second.
+Note: the flow rates are in cubic feet per second.
 }
 \source{
 Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.

@@ -19,7 +19,7 @@ Data frame with 80 rows and 6 columns\cr
  Flow \tab numeric \tab Streamflow, may be either daily mean or measured\cr
  TP_ss \tab numeric \tab Total phosphorus concetration, modified for censoring\cr
  }
-Note: all concentrations are in milligrams per liter as P, the flow rates are cubic feet per second.
+Note: all concentrations are in milligrams per liter as P, the flow rates are in cubic feet per second.
 }
 \source{
 Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13.
@@ -28,7 +28,7 @@ The data were retrieved and modified to replicate the results in Smith and other
 \references{
 Smith, R.A., Hirsch, R.M, and Slack, J.R., 1982, A study of trends in total phosphorus
 measurements at NASQAN stations: U.S. Geological Circular 2190, 34 p. Available online at
-\url{"pubs.usgs.gov/wsp/2190/report.pdf"}.
+\url{"http://pubs.usgs.gov/wsp/2190/report.pdf"}.
 }
 \examples{
 data(KlamathTP)

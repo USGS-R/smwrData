@@ -39,7 +39,7 @@ Data frame with 37 rows and 25 columns\cr
  season \tab factor \tab Season\cr
  }
 Note: all concentrations are in milligrams per liter as the constituent, except 
-Nitrate concetrations are in milligrams per liter as N.\cr
+Nitrate concentrations are in milligrams per liter as N.\cr
 }
 \source{
 Data retrieved from the Wisconsin Water Science Center National Water Information System database on 2002-12-30.

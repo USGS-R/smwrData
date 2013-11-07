@@ -15,7 +15,7 @@ Data frame with 65 rows and 2 columns\cr
  Year \tab integer \tab Water year\cr
  Flow \tab integer \tab Annual peak flow\cr
  }
-Note: the flow rates are cubic feet per second.
+Note: the flow rates are in cubic feet per second.
 }
 \source{
 Appendix C1 in Helsel and Hirsch (2002). Channelization occurred in 1968.

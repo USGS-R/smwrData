@@ -7,7 +7,7 @@ Stream Water Quality
 \description{
 U.S. Geological Survey's National Stream Quality Accounting
  Network (NASQAN) station:  Cuyahoga River at Independence,
- Ohio (4208000).
+ Ohio (04208000).
 }
 \usage{CuyahogaTDS}
 \format{
@@ -17,9 +17,8 @@ Data frame with 80 rows and 4 columns\cr
  MONTH \tab integer \tab Month number\cr
  TIME \tab numeric \tab Sample collection time in decimal years\cr
  TDS \tab integer \tab Total dissolved solids concentration, mg/L\cr
- Q \tab integer \tab Streamflow\cr
+ Q \tab integer \tab Streamflow, in cubic feet per second\cr
  }
-Note: the concentrations are in milligrams per liter and the streamflow is in cubic feet per second.\cr
 }
 \source{
 Appendix C9 in Helsel and Hirsch (2002).

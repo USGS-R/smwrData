@@ -29,15 +29,12 @@ Data frame with 30 rows and 12 columns\cr
 Note: all concentrations are in milligrams per liter as N.\cr
 }
 \source{
-Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18. 
-The data were rearranged and columns renamed to create match data from each well.
-These data represent the nitrite plus nitrate concentration in a survey in Eastern Iowa.
-The cycle 1 samples were taken during the summer of 1998 and the cycle 2 samples were taken
-during the summer of 2007.
+Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18.The data were rearranged and columns renamed to create matching data from each well. These data represent the nitrite plus nitrate concentration in a survey in Eastern Iowa. The cycle 1 samples were taken during the summer of 1998 and the cycle 2 samples were taken during the summer of 2007.\cr
+
+The description of the study unit and the cycle 1 data are described in Sadorf and Linart (2000).
 }
 \references{
-The description of the study unit and the cycle 1 data are described in Sadorf, E.M, and Linart, S.M., 2000, 
-Ground-water quality in Alluvial Aquifers in the Eastern Iowa Basins, Iowa and Minnesota: 
+Sadorf, E.M, and Linart, S.M., 2000, Ground-water quality in Alluvial Aquifers in the Eastern Iowa Basins, Iowa and Minnesota: 
 U.S. Geological Survey Water-Resources Investigations Report 00-4106 46 p.
 }
 \examples{

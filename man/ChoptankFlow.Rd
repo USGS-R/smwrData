@@ -18,14 +18,14 @@ Data frame with 8035 rows and 5 columns\cr
  Flow \tab numeric \tab Daily mean streamflow\cr
  Flow_cd \tab character \tab Daily mean streamflow code\cr
  }
-Note: the flow rates are cubic feet per second.
+Note: the flow rates are in cubic feet per second.
 }
 \source{
 Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/md/nwis/sw}) on 2012-06-19.
 }
 \examples{
 data(ChoptankFlow)
-# The hydrograph for the entire record retreived
+# The hydrograph for the entire record retrieved
 par(mfrow=c(2,1), mar=c(4.1, 4.1, 1.1, 1.1))
 with(ChoptankFlow, plot(datetime, Flow, type='l'))
 # The hydrograph for a "typical water year"

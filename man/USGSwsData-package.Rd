@@ -13,7 +13,7 @@
 Package: \tab USGSwsData\cr
 Type: \tab Package\cr
 Version: \tab 0.8\cr
-Date: \tab 2013-09-25\cr
+Date: \tab 2013-11-05\cr
 License: \tab file LICENCE\cr
 }
 This package contains the following datasets.
@@ -30,6 +30,7 @@ KlamathTP \tab Stream Water Quality \cr
 MayflyNymph \tab Stream Water Quality \cr
 MenomineeMajorIons \tab Stream Water Quality \cr
 MiningIron \tab Stream Water Quality \cr
+MiscGW \tab Groundwater Quality \cr
 PrecipNitrogen \tab Precipitation Water Quality \cr
 PugetNitrate \tab Groundwater Quality \cr
 Q05078470 \tab Daily Streamflow \cr
@@ -42,10 +43,8 @@ SaddlePeaks \tab Annual Peak Streamflow \cr
 TNLoads \tab Stream Water Quality \cr
 UraniumTDS \tab Groundwater Quality \cr
 }
-The misc folder contains three additional ASCII files. The file TestFull.rdb is an ASCII relational database (RDB) file created by 
-constructed by James R. Slack (retired USGS). The use of dots as a delimiter for date data is not standard and is no longer supported.
-The file TestPart.csv is a comma-separated variable file that contains 3 columns from the TestFull.rdb file. The file TestPart.meta
-contains meta-information about the columns in TestPart.csv.
+The misc folder contains three additional ASCII files. The file TestFull.rdb is an ASCII relational database (RDB) file 
+constructed by James R. Slack (retired USGS). The use of dots as a delimiter for date data is not standard and is no longer supported. The file TestPart.csv is a comma-separated variable file that contains 3 columns from the TestFull.rdb file. The file TestPart.meta contains meta-information about the columns in TestPart.csv.
 }
 \author{
 Dave Lorenz, with data contributions from James R. Slack.\cr
@@ -53,10 +52,8 @@ Dave Lorenz, with data contributions from James R. Slack.\cr
 Maintainer: Dave Lorenz <lorenz@usgs.gov>
 }
 \references{
-Helsel, D.R., and Hirsch, R.M., 2002, Statistical methods in water resources: 
-U.S. Geological Survey Techniques of Water-Resources Investigations, book 4, chap. A3, 522 p.
-Available online ar \url{"http://pubs.usgs.gov/twri/twri4a3/"}.\cr
+Helsel, D.R., and Hirsch, R.M., 2002, Statistical methods in water resources: U.S. Geological Survey Techniques of Water-Resources Investigations, book 4, chap. A3, 522 p. Available online ar \url{"http://pubs.usgs.gov/twri/twri4a3/"}.\cr
 
-%Lorenz, D.L., 2013, USGSwsData---An R Package for Managing Hydrologic Data, Version 0.7, USGS OFR
+Lorenz, D.L., 2014, USGSwsData---An R Package of Example Hydrologic Data, Version 0.8, US Geological Survey Open-File Report, ?p.
 }
 \keyword{package}

@@ -30,13 +30,13 @@ Note: all concentrations in the column result_va are in milligrams per liter as 
 }
 \source{
 Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/md/nwis/qwdata}) on 2012-06-18. 
-Column names are preserved as retreived, but unnecessary columns were deleted.
+Column names are preserved as retrieved, but unnecessary columns were deleted.
 }
 \examples{
 data(ChoptankNH3)
 # Concentration values plotted over time--black is uncensored, red represents
 # a less-than value and green are E-coded (less than the reporting level, but
-# greater than the dection limit).
+# greater than the detection limit).
 with(ChoptankNH3, plot(sample_dt, result_va, col=as.factor(remark_cd)))
 }
 \keyword{datasets}
