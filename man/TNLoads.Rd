@@ -17,10 +17,10 @@ Data frame with 42 rows and 9 columns\cr
  LOGIMP \tab numeric \tab Log10 of (percent impervious surface area [unitless])\cr
  MJTEMP \tab numeric \tab Mean minimum January temperature, degrees Fahrenheit\cr
  MSRAIN \tab numeric \tab Mean seasonal rainfall, inches\cr
- PRES \tab integer \tab Percent of basin which is residential [unitless]\cr
- PNON \tab integer \tab Percent of basin which is non-urban [unitless]\cr
- PCOMM \tab integer \tab Percent of basin which is commercial [unitless]\cr
- PIND \tab integer \tab Percent of basin which is industrial [unitless]\cr
+ PRES \tab integer \tab Percent of basin that is residential [unitless]\cr
+ PNON \tab integer \tab Percent of basin that is non-urban [unitless]\cr
+ PCOMM \tab integer \tab Percent of basin that is commercial [unitless]\cr
+ PIND \tab integer \tab Percent of basin that is industrial [unitless]\cr
  }
 }
 \source{

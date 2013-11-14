@@ -12,8 +12,8 @@ Selected water-quality data for Judicial Ditch 64 near Mentor, MN (SW4), USGS st
  Data frame with 11 rows and 4 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
- DATES \tab Date \tab Sample collection begin date\cr
- TIMES \tab character \tab Sample collection begin time\cr
+ DATES \tab Date \tab Sample date\cr
+ TIMES \tab character \tab Sample time\cr
  R00665 \tab character \tab Remark code for total phosphorus concentration\cr
  P00665 \tab numeric \tab Total phosphorus concentration\cr
  }

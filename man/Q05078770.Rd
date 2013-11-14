@@ -12,7 +12,7 @@ Daily mean flow for Judicial Ditch 66 near Marcoux Corners, MN (SW6), USGS stati
 Data frame with 365 rows and 2 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
- DATES \tab Date \tab Day of streamflow\cr
+ DATES \tab Date \tab Day\cr
  FLOW \tab numeric \tab Daily mean streamflow\cr
  }
  Note: the flow rates are in cubic feet per second.

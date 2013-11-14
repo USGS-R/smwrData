@@ -18,7 +18,7 @@ Data frame with 1967 rows and 8 columns\cr
  l20 \tab numeric \tab Percent agricultural land use wthin 3.2 km of well\cr
  l40 \tab numeric \tab Percent Forested land wthin 3.2 km of well\cr
  surfgeo \tab character \tab Description of surficial geology at well\cr
- date \tab Date \tab Water-quality sampling date\cr
+ date \tab Date \tab Sample date\cr
  nitrate \tab numeric \tab Nitrate concentration, in mg/L\cr
  wellmet \tab numeric \tab Well depth, in meters\cr
  }

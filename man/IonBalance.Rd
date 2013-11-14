@@ -17,8 +17,8 @@ Data frame with 22 rows and 28 columns\cr
  STAID \tab character \tab USGS station number\cr
  DATES \tab Date \tab Sample date\cr
  TIMES \tab character \tab Sample time\cr
- EDATE \tab Date \tab Sample collection end date (all missing)\cr
- ETIME \tab character \tab Sample collection end time (all missing)\cr
+ EDATE \tab Date \tab Sample end date (all missing)\cr
+ ETIME \tab character \tab Sample end time (all missing)\cr
  MEDIUM \tab character \tab Sample medium code (surface water)\cr
  H_ion \tab numeric \tab Hydrogen ion concentration\cr
  Ca \tab numeric \tab Calcium ion concentration\cr

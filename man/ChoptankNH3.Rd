@@ -13,13 +13,13 @@ Data frame with 182 rows and 13 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
  agency_cd \tab character \tab Agency code\cr
- site_no \tab character \tab USGS site number\cr
+ site_no \tab character \tab USGS station number\cr
  sample_dt \tab Date \tab Sample date\cr
  sample_tm \tab character \tab Sample time\cr
  time_datum_cd \tab character \tab Time zone datum\cr
  parm_cd \tab character \tab Parameter code\cr
- remark_cd \tab character \tab Remark code\cr
- result_va \tab character \tab Parameter value\cr
+ remark_cd \tab character \tab Remark code for the value\cr
+ result_va \tab character \tab Numeric value of the result\cr
  val_qual_tx \tab character \tab Result value qualifier code\cr
  meth_cd \tab character \tab Lab method code\cr
  dqi_cd \tab character \tab Data-quality indicator code\cr

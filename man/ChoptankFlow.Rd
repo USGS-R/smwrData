@@ -13,7 +13,7 @@ Data frame with 8035 rows and 5 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
  agency_cd \tab character \tab Agency code\cr
- site_no \tab character \tab USGS site number\cr
+ site_no \tab character \tab USGS station number\cr
  datetime \tab Date \tab Day\cr
  Flow \tab numeric \tab Daily mean streamflow\cr
  Flow_cd \tab character \tab Daily mean streamflow code\cr
