@@ -5,7 +5,7 @@
 Stream Water Quality
 }
 \description{
-Selected water-quality data for Judicial Ditch 64 near Mentor, MN (SW4), USGS station number 05078470
+Selected water-quality data for Judicial Ditch 64 near Mentor, Minnesota (SW4), USGS station number 05078470
 for calendar year 2003.
 }
 \usage{QWstacked}
@@ -36,10 +36,10 @@ Data frame with 46 rows and 22 columns\cr
  lab_std_va \tab character \tab Lab standard deviation\cr
  anl_ent_cd \tab character \tab Analyzing agency code\cr
  }
-Note: all concentrations in the column result_va are in milligrams per liter as P.\cr
+Note: all concentrations in the column result_va are in milligrams per liter as phosphorus.\cr
 }
 \source{
-Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/mn/nwis/qwdata}) on 2012-04-06.
+Data retrieved from NWISWeb (\url{http://nwis.waterdata.usgs.gov/mn/nwis/qwdata}) on 2012-04-06.
 The format of water-quality data is often retrieved by result--each row represents the data for a single
 analyte. Note that many columns are part of the generic data retrieval and do not pertain specifically to these data.
 }

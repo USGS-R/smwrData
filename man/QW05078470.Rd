@@ -5,7 +5,7 @@
 Stream Water Quality
 }
 \description{
-Selected water-quality data for Judicial Ditch 64 near Mentor, MN (SW4), USGS station number 05078470 for calendar year 2003.
+Selected water-quality data for Judicial Ditch 64 near Mentor, Minnesota (SW4), USGS station number 05078470 for calendar year 2003.
 }
 \usage{QW05078470}
 \format{
@@ -17,7 +17,7 @@ Selected water-quality data for Judicial Ditch 64 near Mentor, MN (SW4), USGS st
  R00665 \tab character \tab Remark code for total phosphorus concentration\cr
  P00665 \tab numeric \tab Total phosphorus concentration\cr
  }
-Note: all concentrations are in milligrams per liter as P.\cr
+Note: all concentrations are in milligrams per liter as phosphorus.\cr
 }
 \source{
 Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.

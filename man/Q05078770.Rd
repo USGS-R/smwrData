@@ -5,7 +5,7 @@
 Daily Streamflow
 }
 \description{
-Daily mean flow for Judicial Ditch 66 near Marcoux Corners, MN (SW6), USGS station number 05078770 for calendar year 2003.
+Daily mean flow for Judicial Ditch 66 near Marcoux Corners, Minnesota (SW6), USGS station number 05078770 for calendar year 2003.
 }
 \usage{Q05078770}
 \format{
@@ -15,7 +15,7 @@ Data frame with 365 rows and 2 columns\cr
  DATES \tab Date \tab Day\cr
  FLOW \tab numeric \tab Daily mean streamflow\cr
  }
- Note: the flow rates are in cubic feet per second.
+ Note: the daily mean streamflow rates are in cubic feet per second.
 }
 \source{
 Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.

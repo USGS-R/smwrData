@@ -5,7 +5,7 @@
 Groundwater Quality
 }
 \description{
-Groundwater quality data from miscellaneous wells in the US.
+Groundwater-quality data from miscellaneous wells in the United States.
 }
 \usage{MiscGW}
 \format{

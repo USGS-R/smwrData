@@ -6,7 +6,7 @@ Well characteristics
 }
 \description{
 Natural logarithms of specific capacity of wells in four
-rock types within the Appalachian mountain region of
+rock types within the Appalachian Mountain region of
 Pennsylvania.
 }
 \usage{AppalachianSpecCap}

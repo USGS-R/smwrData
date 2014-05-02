@@ -5,7 +5,7 @@
 Annual Peak Streamflow
 }
 \description{
-Annual peak discharges, 1925--1989, for the Saddle River at Lodi, NJ, USGS station number 01391500.
+Annual peak discharges, 1925--1989, for the Saddle River at Lodi, New Jersey, USGS station number 01391500.
 }
 \usage{SaddlePeaks}
 \format{
@@ -15,7 +15,7 @@ Data frame with 65 rows and 2 columns\cr
  Year \tab integer \tab Water year\cr
  Flow \tab integer \tab Annual peak flow\cr
  }
-Note: the flow rates are in cubic feet per second.
+Note: the annual peak flow rates are in cubic feet per second.
 }
 \source{
 Appendix C1 in Helsel and Hirsch (2002). Channelization occurred in 1968.

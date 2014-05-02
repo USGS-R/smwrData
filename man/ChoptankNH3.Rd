@@ -5,7 +5,7 @@
 Stream Water Quality
 }
 \description{
-Selected ammonia concentration data for Choptank River near Greensboro, MD, USGS station number 01491000.
+Selected ammonia concentration data for Choptank River near Greensboro, Maryland, USGS station number 01491000.
 }
 \usage{ChoptankNH3}
 \format{
@@ -26,10 +26,10 @@ Data frame with 182 rows and 13 columns\cr
  rpt_lev_va \tab character \tab Reporting level\cr
  rpt_lev_cd \tab character \tab Reporting level type\cr
  }
-Note: all concentrations in the column result_va are in milligrams per liter as N.\cr
+Note: all concentrations in the column result_va are in milligrams per liter as nitrogen.\cr
 }
 \source{
-Data retrieved from NWISweb (\url{http://nwis.waterdata.usgs.gov/md/nwis/qwdata}) on 2012-06-18. 
+Data retrieved from NWISWeb (\url{http://nwis.waterdata.usgs.gov/md/nwis/qwdata}) on 2012-06-18. 
 Column names are preserved as retrieved, but unnecessary columns were deleted.
 }
 \examples{

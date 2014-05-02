@@ -5,7 +5,7 @@
 Annual Streamflow
 }
 \description{
-Annual streamflows from 1941 through 1960 for the Conecuh River at Brantley, AL, USGS station number 02371500.
+Annual streamflows from 1941 through 1960 for the Conecuh River at Brantley, Alabama, USGS station number 02371500.
 }
 \usage{ConecuhFlows}
 \format{
@@ -15,7 +15,7 @@ Data frame with 20 rows and 2 columns\cr
  Year \tab integer \tab Water year\cr
  Flow \tab integer \tab Annual mean flow\cr
  }
-Note: the flow rates are cubic feet per second.
+Note: the annual mean flow rates are cubic feet per second.
 }
 \source{
 Appendix C2 in Helsel and Hirsch (2002).

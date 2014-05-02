@@ -14,7 +14,7 @@ Data frame with 44 rows and 3 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
  TDS \tab numeric \tab Total dissolved solids concentration, in milligrams per liter\cr
- Uranium \tab numeric \tab Uranium concentration, parts per billion\cr
+ Uranium \tab numeric \tab Uranium concentration, in parts per billion\cr
  HCO3 \tab factor \tab Bicarbonate concentration relative to total anions\cr
  }
 }

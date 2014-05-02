@@ -5,7 +5,7 @@
 Stream Water Quality
 }
 \description{
-Selected ion balance data for County Ditch 65 near Maple Bay, MN (SW2), USGS station number 05079250.
+Selected ion balance data for County Ditch 65 near Maple Bay, Minnesota (SW2), USGS station number 05079250.
 }
 \usage{IonBalance}
 \format{

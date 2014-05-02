@@ -18,7 +18,7 @@ Whole-water or total phosphorus data for selected USGS streamgages for calendar 
  R00665 \tab character \tab Remark code for total phosphorus concentration\cr
  P00665 \tab numeric \tab Total phosphorus concentration\cr
  }
-Note: all concentrations are in milligrams per liter as P.\cr
+Note: all concentrations are in milligrams per liter as phosphorus.\cr
 }
 \source{
 Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.

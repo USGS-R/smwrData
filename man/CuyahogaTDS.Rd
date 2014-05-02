@@ -15,8 +15,8 @@ Data frame with 80 rows and 4 columns\cr
 \tabular{lll}{
  Name \tab Type \tab Description\cr
  MONTH \tab integer \tab Month number\cr
- TIME \tab numeric \tab Sample collection time in decimal years\cr
- TDS \tab integer \tab Total dissolved solids concentration, mg/L\cr
+ TIME \tab numeric \tab Sample collection time, in decimal years\cr
+ TDS \tab integer \tab Total dissolved solids concentration, milligrams per liter\cr
  Q \tab integer \tab Streamflow, in cubic feet per second\cr
  }
 }
