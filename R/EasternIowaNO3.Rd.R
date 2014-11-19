@@ -1,0 +1,56 @@
+#' Groundwater Quality
+#' 
+#' Selected nitrite plus nitrate concentration data from wells in the National
+#' Water-Quality Assessment (NAWQA) Program in the eastern Iowa study unit
+#' survey.
+#' 
+#' 
+#' @name EasternIowaNO3
+#' @docType data
+#' @usage EasternIowaNO3
+#' @format Data frame with 30 rows and 12 columns\cr
+#' \tabular{lll}{ 
+#' Name \tab Type \tab Description\cr\cr
+#' su_code \tab character \tab Study unit code\cr
+#' site_no \tab character \tab USGS station number\cr
+#' C1sample_dt \tab Date \tab Cycle 1 sample date\cr
+#' C1sample_tm \tab character \tab Cycle 1 sample time\cr 
+#' C1time_zone \tab character \tab Cycle 1 time zone datum\cr
+#' C1Nitrate.rmk \tab character \tab Cycle 1 remark code for nitrite plus
+#' nitrate concentration\cr
+#' C1Nitrate \tab numeric \tab Cycle 1 nitrite plus
+#' nitrate concentration\cr
+#' C2sample_dt \tab Date \tab Cycle 2 sample date\cr
+#' C2sample_tm \tab character \tab Cycle 2 sample time\cr
+#' C2time_zone \tab character \tab Cycle 2 time zone datum\cr
+#' C2Nitrate.rmk \tab character \tab
+#' Cycle 2 remark code for nitrite plus nitrate concentration\cr
+#' C2Nitrate \tab numeric \tab Cycle 2 nitrite plus nitrate concentration\cr
+#' } Note: all
+#' concentrations are in milligrams per liter as nitrogen.\cr
+#'
+#' @references Sadorf, E.M, and Linart, S.M., 2000, Ground-water quality in
+#' alluvial aquifers in the eastern Iowa basins, Iowa and Minnesota: U.S.
+#' Geological Survey Water-Resources Investigations Report 00-4106 46 p.
+#' @source Data retrieved from NWISWeb
+#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18.The data
+#' were rearranged and columns renamed to create matching data from each well.
+#' These data represent the nitrite plus nitrate concentration in a survey in
+#' eastern Iowa. The cycle 1 samples were collected during the summer of 1998,
+#' and the cycle 2 samples were collected during the summer of 2007.\cr
+#'
+#' 
+#' The description of the study unit and the cycle 1 data are described in
+#' Sadorf and Linart (2000).
+#' @keywords datasets
+#' @examples
+#' 
+#' data(EasternIowaNO3)
+#' # Show the change from cycle 1 to 2, ignoring censoring
+#' par(mar=c(5.1, 12.1, 1.1, 1.1))
+#' plot(EasternIowaNO3$C1Nitrate, seq(nrow(EasternIowaNO3)), ylab="", xlab="Nitrate",
+#'  yaxt='n', xlim=c(0, 25))
+#' points(EasternIowaNO3$C2Nitrate, seq(nrow(EasternIowaNO3)), col='green')
+#' axis(2, at=seq(nrow(EasternIowaNO3)), labels=EasternIowaNO3$site_no, las=1)
+#' 
+NULL

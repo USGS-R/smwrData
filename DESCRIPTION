@@ -9,5 +9,3 @@ Description: Datasets as data.frames and as text files for examples in the
 License: file LICENSE
 LazyLoad: yes
 lazyData: yes
-Collate:
-    'dataRd.R'

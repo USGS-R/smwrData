@@ -1,34 +1,31 @@
+\docType{data}
 \name{KlamathTP}
 \alias{KlamathTP}
-\docType{data}
-\title{
-Stream Water Quality
+\title{Stream Water Quality}
+\format{Data frame with 80 rows and 6 columns\cr
+\tabular{lll}{
+Name \tab Type \tab Description\cr\cr
+site_no \tab character \tab USGS station number\cr
+sample_dt \tab Date \tab Sample date\cr
+TP_rmk \tab character \tab Remark code for total phosphorus concentration\cr
+TP \tab numeric \tab Total phosphorus concetration\cr
+Flow \tab numeric \tab Streamflow, may be either daily mean or measured\cr
+TP_ss \tab numeric \tab Total phosphorus concetration, modified for censoring\cr
+} Note: all concentrations are in milligrams per liter as phosphorus, the streamflow
+rates are in cubic feet per second.}
+\source{
+Data retrieved from NWISWeb
+(\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on
+2012-07-13. The data were retrieved and modified to
+replicate the results in Smith and others, 1982.
+}
+\usage{
+KlamathTP
 }
 \description{
-Total phosphorus concentrations and streamflow data from the Klamath River near Klamath, California, USGS station number 11530500. 
-}
-\usage{KlamathTP}
-\format{
-Data frame with 80 rows and 6 columns\cr
-\tabular{lll}{
- Name \tab Type \tab Description\cr
- site_no \tab character \tab USGS station number\cr
- sample_dt \tab Date \tab Sample date\cr
- TP_rmk \tab character \tab Remark code for total phosphorus concentration\cr
- TP \tab numeric \tab  Total phosphorus concetration\cr
- Flow \tab numeric \tab Streamflow, may be either daily mean or measured\cr
- TP_ss \tab numeric \tab Total phosphorus concetration, modified for censoring\cr
- }
-Note: all concentrations are in milligrams per liter as phosphorus, the streamflow rates are in cubic feet per second.
-}
-\source{
-Data retrieved from NWISWeb (\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13.
-The data were retrieved and modified to replicate the results in Smith and others, 1982.
-}
-\references{
-Smith, R.A., Hirsch, R.M, and Slack, J.R., 1982, A study of trends in total phosphorus
-measurements at NASQAN stations: U.S. Geological Circular 2190, 34 p. Available online at
-\url{http://pubs.usgs.gov/wsp/2190/report.pdf}.
+Total phosphorus concentrations and streamflow data from
+the Klamath River near Klamath, California, USGS station
+number 11530500.
 }
 \examples{
 data(KlamathTP)
@@ -40,4 +37,11 @@ abline(.15, -0.0000137) # Coefficients modified for actual graph units
 with(KlamathTP, plot(Flow, TP_ss))
 abline(0.014, 0.0000054) # Note difference in intercept
 }
+\references{
+Smith, R.A., Hirsch, R.M, and Slack, J.R., 1982, A study of
+trends in total phosphorus measurements at NASQAN stations:
+U.S. Geological Circular 2190, 34 p. Available online at
+\url{http://pubs.usgs.gov/wsp/2190/report.pdf}.
+}
 \keyword{datasets}
+

@@ -1,24 +1,26 @@
+\docType{data}
 \name{Q05078770}
 \alias{Q05078770}
-\docType{data}
-\title{
-Daily Streamflow
+\title{Daily Streamflow}
+\format{Data frame with 365 rows and 2 columns\cr
+\tabular{lll}{
+Name \tab Type \tab Description\cr\cr
+DATES \tab Date \tab Day\cr
+FLOW \tab numeric \tab
+Daily mean streamflow\cr
+} Note: the daily mean streamflow rates are in
+cubic feet per second.}
+\source{
+Data retrieved from the Minnesota Water Science Center
+National Water Information System database on 2005-01-05.
+}
+\usage{
+Q05078770
 }
 \description{
-Daily mean flow for Judicial Ditch 66 near Marcoux Corners, Minnesota (SW6), USGS station number 05078770 for calendar year 2003.
-}
-\usage{Q05078770}
-\format{
-Data frame with 365 rows and 2 columns\cr
-\tabular{lll}{
- Name \tab Type \tab Description\cr
- DATES \tab Date \tab Day\cr
- FLOW \tab numeric \tab Daily mean streamflow\cr
- }
- Note: the daily mean streamflow rates are in cubic feet per second.
-}
-\source{
-Data retrieved from the Minnesota Water Science Center National Water Information System database on 2005-01-05.
+Daily mean flow for Judicial Ditch 66 near Marcoux Corners,
+Minnesota (SW6), USGS station number 05078770 for calendar
+year 2003.
 }
 \examples{
 data(Q05078770)
@@ -26,3 +28,4 @@ data(Q05078770)
 with(Q05078770, plot(DATES, FLOW, type='l', log='y'))
 }
 \keyword{datasets}
+
