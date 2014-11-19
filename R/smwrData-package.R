@@ -1,13 +1,13 @@
 #' Example data for USGS core packages
 #' 
-#' The USGSwsData package provides example data for the USGS Water-Science core
+#' The smwrData package provides example data for the USGS Water-Science core
 #' packages.
 #' 
 #' \tabular{ll}{ 
 #' Package: \tab USGSwsData\cr
 #' Type: \tab Package\cr
-#' Version: \tab 0.9.0\cr
-#' Date: \tab 2014-02-05\cr
+#' Version: \tab 1.0.0\cr
+#' Date: \tab 2014-11-19\cr
 #' License: \tab file LICENCE\cr
 #' } 
 #' This package contains the following datasets. 
@@ -44,8 +44,8 @@
 #' from the TestFull.rdb file. The file TestPart.meta contains meta-information
 #' about the columns in TestPart.csv.
 #' 
-#' @name USGSwsData-package
-#' @aliases USGSwsData-package USGSwsData
+#' @name smwrData-package
+#' @aliases smwrData-package smwrData
 #' @docType package
 #' @author Dave Lorenz, with data contributions from James R. Slack and Jim
 #' Tesoriero.\cr
@@ -58,8 +58,8 @@
 #' \url{http://pubs.usgs.gov/twri/twri4a3/}.\cr
 #'
 #' 
-#' Lorenz, D.L., 2014, USGSwsData---An R package of example hydrologic data,
-#' version 0.9.0, U.S. Geological Survey Open-File Report, ?p. Available online
+#' Lorenz, D.L., 2014, smwrData---An R package of example hydrologic data,
+#' version 1.0.0, U.S. Geological Survey Open-File Report, ?p. Available online
 #' at \url{http://pubs.usgs.gov/ofr/ofr????/}.\cr
 #'
 #'
