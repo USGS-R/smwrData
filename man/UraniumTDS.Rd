@@ -17,8 +17,8 @@ Appendix C16 in Helsel and Hirsch (2002).
 UraniumTDS
 }
 \description{
-Uranium and total dissolved solids (TDS) in groundwaters of differing
-bicarbonate (HCO_{3}) concentrations.
+Uranium and total dissolved solids in groundwaters of differing
+bicarbonate concentrations.
 }
 \examples{
 data(UraniumTDS)
