@@ -1,7 +1,7 @@
 #' Groundwater Quality
 #' 
 #' Uranium and total dissolved solids (TDS) in groundwaters of differing
-#' bicarbonate (HCO3) concentrations.
+#' bicarbonate (HCO_{3}) concentrations.
 #' 
 #' 
 #' @name UraniumTDS

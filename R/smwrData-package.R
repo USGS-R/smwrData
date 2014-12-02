@@ -1,4 +1,4 @@
-#' Example data for USGS core packages
+#' Example data for U.S. Geological Survey (USGS) core packages
 #' 
 #' The smwrData package provides example data for the USGS Water-Science core
 #' packages.
@@ -6,8 +6,8 @@
 #' \tabular{ll}{ 
 #' Package: \tab USGSwsData\cr
 #' Type: \tab Package\cr
-#' Version: \tab 1.0.0\cr
-#' Date: \tab 2014-11-19\cr
+#' Version: \tab 1.0.1\cr
+#' Date: \tab 2014-12-02\cr
 #' License: \tab file LICENCE\cr
 #' } 
 #' This package contains the following datasets. 
@@ -36,7 +36,8 @@
 #' SaddlePeaks \tab Annual Peak Streamflow \cr
 #' TNLoads \tab Stream Water Quality \cr
 #' UraniumTDS \tab Groundwater Quality \cr
-#' } The folder misc contains three additional ASCII
+#' } 
+#' The folder named misc contains three additional ASCII
 #' files. The file TestFull.rdb is an ASCII relational database (RDB) file
 #' constructed by James R. Slack (retired USGS). The use of dots as a delimiter
 #' for date data is not standard and is no longer supported. The file
@@ -54,13 +55,13 @@
 #' Maintainer: Dave Lorenz <lorenz@@usgs.gov>
 #' @references Helsel, D.R., and Hirsch, R.M., 2002, Statistical methods in
 #' water resources: U.S. Geological Survey Techniques of Water-Resources
-#' Investigations, book 4, chap. A3, 522 p. Available online at
+#' Investigations, book 4, chap. A3, 522 p. Available at
 #' \url{http://pubs.usgs.gov/twri/twri4a3/}.\cr
 #'
 #' 
 #' Lorenz, D.L., 2014, smwrData---An R package of example hydrologic data,
-#' version 1.0.0, U.S. Geological Survey Open-File Report, ?p. Available online
-#' at \url{http://pubs.usgs.gov/ofr/ofr????/}.\cr
+#' version 1.0.1, U.S. Geological Survey Open-File Report, 7 p. Available 
+#' at \url{http://pubs.usgs.gov/publication/ofr2014XXXX}.\cr
 #'
 #'
 #' @keywords package

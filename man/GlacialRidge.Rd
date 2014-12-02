@@ -23,7 +23,8 @@ were rearranged and the columns renamed to the current format.
 GlacialRidge
 }
 \description{
-Daily groundwater data for water year 2008 for selected wells the Glacial
+Daily groundwater data for water year 2008 (October 1, 2007 to
+September 30, 2008) for selected wells the Glacial
 Ridge National Wildlife Refuge in northwestern Minnesota.
 }
 \examples{
@@ -39,8 +40,8 @@ with(GlacialRidge, lines(datetime, G22))
 \references{
 Cowdery, T. K., Lorenz, D. L, Arntson, D., 2008, Hydrology prior
 to wetland and prairie restoration in and around the Glacial Ridge National
-Wildlife Refuge, northwestern Minnesota, 2002-5: U.S Geological Survey
-Scientific Investigations Report 2007-5200, vi, 68 p.
+Wildlife Refuge, northwestern Minnesota, 2002--5: U.S Geological Survey
+Scientific Investigations Report 2007-5200, 68 p.
 }
 \keyword{datasets}
 

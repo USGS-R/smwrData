@@ -1,7 +1,7 @@
 Package: smwrData
-Version: 1.0.0
-Date: 2014-11-19
-Title: Data from U.S. Geological Survey publications.
+Version: 1.0.1
+Date: 2014-12-02
+Title: Example data for U.S. Geological Survey (USGS) core packages
 Author: Dave Lorenz <lorenz@usgs.gov>
 Maintainer: Dave Lorenz <lorenz@usgs.gov>
 Description: Datasets as data.frames and as text files
