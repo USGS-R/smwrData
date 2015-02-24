@@ -1,13 +1,13 @@
-#' Example data for U.S. Geological Survey (USGS) core packages
+#' Example Hydrologic Data
 #' 
-#' The smwrData package provides example data for the USGS Water-Science core
-#' packages.
+#' The smwrData package provides example hydrologic data to support
+#'statistical methods in water resources.
 #' 
 #' \tabular{ll}{ 
 #' Package: \tab USGSwsData\cr
 #' Type: \tab Package\cr
-#' Version: \tab 1.0.1\cr
-#' Date: \tab 2014-12-02\cr
+#' Version: \tab 1.0.3\cr
+#' Date: \tab 2015-02-24\cr
 #' License: \tab file LICENCE\cr
 #' } 
 #' This package contains the following datasets. 
@@ -22,6 +22,7 @@
 #' IonBalance \tab Stream Water Quality \cr
 #' KlamathTP \tab Stream Water Quality \cr
 #' MayflyNymph \tab Stream Water Quality \cr
+#' MC11_1993 \tab Soil Temperature \cr
 #' MenomineeMajorIons \tab Stream Water Quality \cr
 #' MiningIron \tab Stream Water Quality \cr
 #' MiscGW \tab Groundwater Quality \cr
@@ -59,10 +60,13 @@
 #' \url{http://pubs.usgs.gov/twri/twri4a3/}.\cr
 #'
 #' 
-#' Lorenz, D.L., 2014, smwrData---An R package of example hydrologic data,
-#' version 1.0.1, U.S. Geological Survey Open-File Report, 7 p. Available 
+#' Lorenz, D.L., 2015, smwrData---An R package of example hydrologic data,
+#' version 1.0.2, U.S. Geological Survey Open-File Report, 7 p. Available 
 #' at \url{http://pubs.usgs.gov/publication/ofr2014XXXX}.\cr
 #'
 #'
 #' @keywords package
-NULL
+.onAttach <- function(libname, pkgname) {
+	packageStartupMessage("Although this software program has been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS or the U.S. Government as to the accuracy and functioning of the program and related program material nor shall the fact of distribution constitute any such warranty, and no responsibility is assumed by the USGS in connection therewith.")
+}
+

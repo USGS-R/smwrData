@@ -17,13 +17,13 @@ Installation
 **for windows**:
 ```R
 install.packages("smwrData", 
-    repos=c("http://usgs-r.github.com","http://cran.us.r-project.org"), 
+    repos=c("http://owi.usgs.gov/R"), 
     dependencies=TRUE)
 ```
 
 **for mac**:
 ```R
 install.packages("smwrData", 
-    repos=c("http://usgs-r.github.com","http://cran.us.r-project.org"), 
+    repos=c("http://owi.usgs.gov/R"), 
     dependencies=TRUE, type = "both")
 ```

@@ -1,15 +1,15 @@
-citHeader("Suggested citation for USGSwsData:")
+citHeader("Suggested citation for smwrData:")
 
 citEntry(entry = "TechReport",
-  title        = "smwrData--An R Package of Example Hydrologic Data, Version 1.0.1",
+  title        = "smwrData--An R Package of Example Hydrologic Data, Version 1.0.3",
   author       = personList(as.person("David L. Lorenz")),
   institution  = "U.S. Geological Survey",
   series       = "Open-File Report",
-  year         = "2014",
+  year         = "2015",
   pages        = "unknown",
   url          = "http://pubs.er.usgs.gov/publication/ofr20141000",
 
   textVersion  =
-  paste("Lorenz, D.L., 2014,",
-        "smwrData---An R Package of Example Hydrologic Data, Version 1.0.1: U.S. Geological Survey Open-File Report XXXX, p.")
+  paste("Lorenz, D.L., 2015,",
+        "smwrData---An R Package of Example Hydrologic Data, Version 1.0.3: U.S. Geological Survey Open-File Report XXXX, p.")
 )
