@@ -27,4 +27,3 @@ This software is provided "AS IS."
  
 Linix: [![travis](https://travis-ci.org/USGS-R/smwrData.svg?branch=master)](https://travis-ci.org/USGS-R/smwrData)
 
-
