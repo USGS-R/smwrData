@@ -3,6 +3,16 @@ smwrData
 
 Data sets as data.frames and as text files from U.S. Geological Survey publications.
 
+Installation
+----------
+
+
+```R
+install.packages("smwrData", repos=c("http://owi.usgs.gov/R"))
+```
+
+
+
 Disclaimer
 ----------
 This software is in the public domain because it contains materials that originally came from the U.S. Geological Survey, an agency of the United States Department of Interior. For more information, see the official USGS copyright policy at [http://www.usgs.gov/visual-id/credit_usgs.html#copyright](http://www.usgs.gov/visual-id/credit_usgs.html#copyright)
@@ -11,19 +21,10 @@ Although this software program has been used by the U.S. Geological Survey (USGS
 
 This software is provided "AS IS."
 
-Installation
-----------
+ [
+   ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+ ](http://creativecommons.org/publicdomain/zero/1.0/)
+ 
+Linix: [![travis](https://travis-ci.org/USGS-R/smwrData.svg?branch=master)](https://travis-ci.org/USGS-R/smwrData)
 
-**for windows**:
-```R
-install.packages("smwrData", 
-    repos=c("http://owi.usgs.gov/R"), 
-    dependencies=TRUE)
-```
 
-**for mac**:
-```R
-install.packages("smwrData", 
-    repos=c("http://owi.usgs.gov/R"), 
-    dependencies=TRUE, type = "both")
-```
