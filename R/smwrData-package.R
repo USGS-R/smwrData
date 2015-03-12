@@ -6,9 +6,9 @@
 #' \tabular{ll}{ 
 #' Package: \tab USGSwsData\cr
 #' Type: \tab Package\cr
-#' Version: \tab 1.0.3\cr
-#' Date: \tab 2015-02-24\cr
-#' License: \tab file LICENCE\cr
+#' Version: \tab 1.0.4\cr
+#' Date: \tab 2015-03-12\cr
+#' License: \tab CC0\cr
 #' } 
 #' This package contains the following datasets. 
 #' \tabular{ll}{ 
@@ -61,11 +61,12 @@
 #'
 #' 
 #' Lorenz, D.L., 2015, smwrData---An R package of example hydrologic data,
-#' version 1.0.2, U.S. Geological Survey Open-File Report, 7 p. Available 
+#' version 1.0.4, U.S. Geological Survey Open-File Report, 7 p. Available 
 #' at \url{http://pubs.usgs.gov/publication/ofr2014XXXX}.\cr
 #'
 #'
 #' @keywords package
+NULL
 .onAttach <- function(libname, pkgname) {
 	packageStartupMessage("Although this software program has been used by the U.S. Geological Survey (USGS), no warranty, expressed or implied, is made by the USGS or the U.S. Government as to the accuracy and functioning of the program and related program material nor shall the fact of distribution constitute any such warranty, and no responsibility is assumed by the USGS in connection therewith.")
 }

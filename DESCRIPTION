@@ -1,12 +1,12 @@
 Package: smwrData
-Version: 1.0.3
-Date: 2015-02-24
+Version: 1.0.4
+Date: 2015-03-12
 Title: Example hydrologic data to support statistical methods in water
     resources.
 Author: Dave Lorenz <lorenz@usgs.gov>
 Maintainer: Dave Lorenz <lorenz@usgs.gov>
 Description: Datasets as data.frames and as text files
     from U.S. Geological Survey publications.
-License: file LICENSE
+License: CC0
 LazyLoad: yes
 LazyData: yes
