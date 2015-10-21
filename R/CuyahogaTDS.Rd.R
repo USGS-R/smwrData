@@ -1,6 +1,6 @@
 #' Stream Water Quality
 #' 
-#' U.S. Geological Survey's National Stream Quality Accounting Network (NASQAN)
+#' U.S. Geological Survey National Stream Quality Accounting Network (NASQAN)
 #' station: Cuyahoga River at Independence, Ohio (04208000).
 #' 
 #' 

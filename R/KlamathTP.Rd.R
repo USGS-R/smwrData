@@ -20,13 +20,13 @@
 #'Note: all concentrations are in milligrams per liter as phosphorus, the streamflow 
 #'rates are in cubic feet per second.
 #' @references Smith, R.A., Hirsch, R.M, and Slack, J.R., 1982, A study of
-#' trends in total phosphorus measurements at NASQAN stations: U.S. Geological
-#' Circular 2190, 34 p. Also available at
-#' \url{http://pubs.usgs.gov/wsp/2190/report.pdf}.
+#'trends in total phosphorus measurements at NASQAN stations: U.S. Geological
+#'Circular 2190, 34 p. Also available at
+#'\url{http://pubs.usgs.gov/wsp/2190/report.pdf}.
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13. The data
-#' were retrieved and modified to replicate the results in Smith and others,
-#' 1982.
+#'(\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13. The data
+#'were retrieved and modified to replicate the results in Smith and others
+#'(1982).
 #' @keywords datasets
 #' @examples
 #' 

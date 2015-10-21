@@ -2,7 +2,7 @@
 #'
 #' Facilitate the constructing of files documenting R data.frames.
 #'
-#' When \code{dataRd} is used within a \code{for} loop, use of \code{obname}
+#' When \code{dataRd} is used within a loop, use of \code{obname}
 #'facilitates using character strings for objects.
 #'
 #' @param obj the name of the dataset to document.

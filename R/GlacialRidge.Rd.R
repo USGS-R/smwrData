@@ -1,8 +1,8 @@
 #' Daily Groundwater Levels
 #' 
 #' Daily groundwater data for water year 2008 (October 1, 2007 to 
-#' September 30, 2008) for selected wells the Glacial
-#' Ridge National Wildlife Refuge in northwestern Minnesota.
+#'September 30, 2008) for selected wells in the Glacial
+#'Ridge National Wildlife Refuge in northwestern Minnesota.
 #' 
 #' 
 #' @name GlacialRidge

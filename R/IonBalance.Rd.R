@@ -42,8 +42,9 @@
 #' } Note: all
 #' concentrations are in milli-equivalents per liter.\cr
 #'
-#' @source Data retrieved from the Minnesota Water Science Center National
-#' Water Information System database on 2012-01-19.
+#' @source Data retrieved from NWISWeb
+#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-01-19. The data were
+#' modified to represt the concentrations in milli-equivalents per liter.
 #' @keywords datasets
 #' @examples
 #' 

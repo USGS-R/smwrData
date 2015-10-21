@@ -18,8 +18,8 @@
 #' } Note: all
 #' concentrations are in milligrams per liter as phosphorus.\cr
 #'
-#' @source Data retrieved from the Minnesota Water Science Center National
-#' Water Information System database on 2005-01-05.
+#' @source Data retrieved from NWISWeb
+#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2005-01-05.
 #' @keywords datasets
 #' @examples
 #' 
