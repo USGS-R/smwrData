@@ -15,7 +15,7 @@ P00665 \tab numeric \tab Total phosphorus concentration\cr
 phosphorus.\cr}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2005-01-05.
+(\url{http://nwis.waterdata.usgs.gov/mn/nwis/qw}) on 2005-01-05.
 }
 \usage{
 QW05078470

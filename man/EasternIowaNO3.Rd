@@ -26,7 +26,7 @@ C2Nitrate \tab numeric \tab Cycle 2 nitrite plus nitrate concentration\cr
 concentrations are in milligrams per liter as nitrogen.\cr}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18. The data
+(\url{http://nwis.waterdata.usgs.gov/ia/nwis/qw}) on 2012-06-18. The data
 were rearranged and columns renamed to create matching data from each well.
 These data represent the nitrite plus nitrate concentration in a survey in
 eastern Iowa. The cycle 1 samples were collected during the summer of 1998,

@@ -19,7 +19,7 @@ Appendix C9 in Helsel and Hirsch (2002).
 CuyahogaTDS
 }
 \description{
-U.S. Geological Survey's National Stream Quality Accounting Network (NASQAN)
+U.S. Geological Survey National Stream Quality Accounting Network (NASQAN)
 station: Cuyahoga River at Independence, Ohio (04208000).
 }
 \examples{

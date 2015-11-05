@@ -13,8 +13,8 @@ statistical methods in water resources.
 \tabular{ll}{
 Package: \tab USGSwsData\cr
 Type: \tab Package\cr
-Version: \tab 1.1.0\cr
-Date: \tab 2015-09-17\cr
+Version: \tab 1.1.1\cr
+Date: \tab 2015-11-05\cr
 License: \tab CC0\cr
 }
 This package contains the following datasets.
@@ -67,8 +67,8 @@ Investigations, book 4, chap. A3, 522 p. Available at
 
 
 Lorenz, D.L., 2015, smwrData---An R package of example hydrologic data,
-version 1.1.0, U.S. Geological Survey Open-File Report, 7 p. Available
-at \url{http://pubs.usgs.gov/publication/ofr2014XXXX}.\cr
+version 1.1.1, U.S. Geological Survey Open-File Report 2015--1103, 5 p. Available
+at \url{http://pubs.usgs.gov/publication/ofr20151103}.\cr
 }
 \keyword{package}
 

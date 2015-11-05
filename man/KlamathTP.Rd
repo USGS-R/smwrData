@@ -18,7 +18,7 @@ Note: all concentrations are in milligrams per liter as phosphorus, the streamfl
 rates are in cubic feet per second.}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13. The data
+(\url{http://nwis.waterdata.usgs.gov/ca/nwis/qw}) on 2012-07-13. The data
 were retrieved and modified to replicate the results in Smith and others
 (1982).
 }

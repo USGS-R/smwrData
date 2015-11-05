@@ -37,7 +37,7 @@ concentrations are in milligrams per liter as the constituent, except
 nitrate concentrations are in milligrams per liter as nitrogen.\cr}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/wi/nwis/gw}) on 2002-12-30. Data were rearranged and
+(\url{http://nwis.waterdata.usgs.gov/wi/nwis/qw}) on 2002-12-30. Data were rearranged and
 columns renamed to the current format.
 }
 \usage{

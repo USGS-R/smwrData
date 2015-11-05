@@ -40,7 +40,7 @@ Pct_Diff \tab numeric \tab Percent difference beteeen \code{Cation_sum} and \cod
 concentrations are in milli-equivalents per liter.\cr}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-01-19. The data were
+(\url{http://nwis.waterdata.usgs.gov/mn/nwis/qw}) on 2012-01-19. The data were
 modified to represt the concentrations in milli-equivalents per liter.
 }
 \usage{

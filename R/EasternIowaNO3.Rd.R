@@ -33,7 +33,7 @@
 #' alluvial aquifers in the eastern Iowa basins, Iowa and Minnesota: U.S.
 #' Geological Survey Water-Resources Investigations Report 00-4106, 46 p.
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18. The data
+#' (\url{http://nwis.waterdata.usgs.gov/ia/nwis/qw}) on 2012-06-18. The data
 #' were rearranged and columns renamed to create matching data from each well.
 #' These data represent the nitrite plus nitrate concentration in a survey in
 #' eastern Iowa. The cycle 1 samples were collected during the summer of 1998,

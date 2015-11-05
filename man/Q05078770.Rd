@@ -14,7 +14,7 @@ Daily mean streamflow\cr
 cubic feet per second.}
 \source{
 Data retrieved from NWISWeb
-(\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2005-01-05.
+(\url{http://nwis.waterdata.usgs.gov/mn/nwis/sw}) on 2005-01-05.
 }
 \usage{
 Q05078770

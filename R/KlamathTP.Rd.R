@@ -24,7 +24,7 @@
 #'Circular 2190, 34 p. Also available at
 #'\url{http://pubs.usgs.gov/wsp/2190/report.pdf}.
 #' @source Data retrieved from NWISWeb
-#'(\url{http://nwis.waterdata.usgs.gov/ca/nwis/sw}) on 2012-07-13. The data
+#'(\url{http://nwis.waterdata.usgs.gov/ca/nwis/qw}) on 2012-07-13. The data
 #'were retrieved and modified to replicate the results in Smith and others
 #'(1982).
 #' @keywords datasets
