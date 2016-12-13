@@ -34,7 +34,7 @@ To install the `smwrData` package:
   ```
   
 
-6. Update often. Next time you update your packages, `rloadest` will automatically update:
+6. Update often. Next time you update your packages, `smwrData` will automatically update:
 
    ![update](images/update.png)
 
