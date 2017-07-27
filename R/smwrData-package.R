@@ -4,10 +4,8 @@
 #'statistical methods in water resources.
 #' 
 #' \tabular{ll}{ 
-#' Package: \tab USGSwsData\cr
+#' Package: \tab smwrData\cr
 #' Type: \tab Package\cr
-#' Version: \tab 1.1.1\cr
-#' Date: \tab 2015-11-05\cr
 #' License: \tab CC0\cr
 #' } 
 #' This package contains the following datasets. 
@@ -52,16 +50,15 @@
 #' @author Dave Lorenz, with data contributions from James R. Slack and Jim
 #' Tesoriero.\cr
 #'
-#' Maintainer: Dave Lorenz <lorenz@@usgs.gov>
 #' @references Helsel, D.R., and Hirsch, R.M., 2002, Statistical methods in
 #' water resources: U.S. Geological Survey Techniques of Water-Resources
 #' Investigations, book 4, chap. A3, 522 p. Available at
-#' \url{http://pubs.usgs.gov/twri/twri4a3/}.\cr
+#' \url{https://pubs.usgs.gov/twri/twri4a3/}.\cr
 #'
 #' 
 #' Lorenz, D.L., 2015, smwrData---An R package of example hydrologic data,
 #' version 1.1.1, U.S. Geological Survey Open-File Report 2015--1103, 5 p. Available 
-#' at \url{http://pubs.usgs.gov/publication/ofr20151103}.\cr
+#' at \url{https://pubs.er.usgs.gov/publication/ofr20151103}.\cr
 #'
 #' @keywords package
 NULL
