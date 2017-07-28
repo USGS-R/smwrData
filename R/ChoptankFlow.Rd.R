@@ -17,7 +17,7 @@
 #' } Note: the daily mean
 #' streamflow rates are in cubic feet per second.
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/md/nwis/sw}) on 2012-06-19.
+#' (\url{https://nwis.waterdata.usgs.gov/md/nwis/sw}) on 2012-06-19.
 #' @keywords datasets
 #' @examples
 #' 

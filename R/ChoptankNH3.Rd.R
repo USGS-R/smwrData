@@ -27,7 +27,7 @@
 #' result_va are in milligrams per liter as nitrogen.\cr
 #'
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/md/nwis/qwdata}) on 2012-06-18.  Column
+#' (\url{https://nwis.waterdata.usgs.gov/md/nwis/qwdata}) on 2012-06-18.  Column
 #' names are preserved as retrieved, but unnecessary columns were deleted.
 #' @keywords datasets
 #' @examples

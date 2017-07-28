@@ -24,7 +24,7 @@
 #' Wildlife Refuge, northwestern Minnesota, 2002--5: U.S Geological Survey
 #' Scientific Investigations Report 2007-5200, 68 p.
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18. The data
+#' (\url{https://nwis.waterdata.usgs.gov/mn/nwis/gw}) on 2012-06-18. The data
 #' were rearranged and the columns renamed to the current format.
 #' @keywords datasets
 #' @examples

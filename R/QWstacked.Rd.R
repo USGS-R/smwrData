@@ -36,7 +36,7 @@
 #' column result_va are in milligrams per liter as phosphorus.\cr
 #'
 #' @source Data retrieved from NWISWeb
-#' (\url{http://nwis.waterdata.usgs.gov/mn/nwis/qwdata}) on 2012-04-06. The
+#' (\url{https://nwis.waterdata.usgs.gov/mn/nwis/qwdata}) on 2012-04-06. The
 #' format of water-quality data is often retrieved by result--each row
 #' represents the data for a single analyte. Note that many columns are part of
 #' the generic data retrieval and do not pertain specifically to these data.
